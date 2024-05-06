@@ -1,0 +1,159 @@
+body {
+  background-image: url(../images/backgroundImage.jpg);
+  background-size: auto;
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .App {
+  
+
+} */
+button {
+  background-color: #011F43;
+  height: 60px;
+  width: 200px;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+button:hover {
+  transform: scale(1.1);
+  color: #F8F8FF;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.image {
+  background-image: url(../images/makerDao.jpg);
+  background-size: contain;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  margin: 0;
+}
+
+#input-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#input-id {
+  height: 50px;
+  width: 100%;
+}
+
+#rough-cdp-id {
+  background-color: rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+  height: 50px;
+  width: 60%;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#positions-header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#input-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+select {
+  border-radius: 10px;
+  background-color: #003253;
+  color: white;
+  text-align: center;
+  height: 20px;
+  width: 150px;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.cdpItem {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+
+}
+
+.cdpItem:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.listCDP {
+  background-color: rgba(255, 255, 255, 0.1);
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.listHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+section {
+  width: 130px;
+}
+
+p {
+  text-align: center;
+  height: 22px;
+  width: 130px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
